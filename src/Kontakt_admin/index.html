@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=REM&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#" data-menu-button><i class='bx bx-menu'></i></a>
+        <a href="../home/index.html">Home</a>
+        <a href="../create/index.html">Erstellen</a>
+        <a href="../kontakt/index.html">Kontakt</a>
+        <a href="../kontakt_admin/index.html">Admin</a>
+        <div class="dropdown-menu">
+            <a href="../home/index.html">Home</a>
+            <a href="../create/index.html">Erstellen</a>
+            <a href="../kontakt/index.html">Kontakt</a>
+            <a href="../kontakt_admin/index.html">Admin</a>
+        </div>
+    </div>
+
+    <div class="sticky_nav">
+        <a href="#"><i class='bx bx-arrow-to-right' style="font-size: 1rem;"></i></a>
+        <a href="#" data-menu-button-profile><i class='bx bx-child'></i></a>
+        <div class="profile-menu">
+            <a href="../profil/index.html">dein Profil</a>
+            <a data-punkte>Punkte:</a>
+        </div>
+        <a href="#" id="color_switcher" data-button-clicked></a>
+    </div>
+
+
+    
+    <main>
+        <div class="message_container">
+        </div>
+        <div class="button_container">
+            <input type="text" id="message_field">
+            <button id="send_button"><i class='bx bx-right-arrow-alt'></i></button>
+        </div>
+
+        <div class="user_button_container"></div>
+    </main>
+</body>
+</html>
